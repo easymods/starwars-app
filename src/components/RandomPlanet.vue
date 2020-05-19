@@ -1,9 +1,9 @@
 <template>
-<div class="container d-flex justify-content-center">
-    <div class="card mb-12" style="width: 800px;">
+<div class="container d-flex justify-content-center mb-5">
+    <div class="card mb-12 container-fluid">
     <div class="row">
-        <div class="col-md-5">
-            <img height="100%" width="100%" display="inline-block" :src="img" class="card-img" alt="...">
+        <div class="col-md-3">
+            <img height="100%" display="inline-block" :src="img" class="card-img" alt="...">
         </div>
         <div class="col-md-7">
         <div class="card-body">

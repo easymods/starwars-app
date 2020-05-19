@@ -13,13 +13,13 @@ export class SwapiService {
 
     // PEOPLE
     async getAllPeople() {
-        const res = await this.getResource(`/people/`);
+        const res = await this.getResource(`people/`);
         return res.results;
     }
 
-    getPerson(id) {
-        return this.getResource(`people/${id}`);
-    }
+    // getPerson(id) {
+    //     return this.getResource(`people/${id}`);
+    // }
 
     // PLANETS
     async getAllPlanets() {
@@ -37,10 +37,9 @@ export class SwapiService {
         return res.results;
     }
 
-    getStraship(id) {
-        return this.getResource(`starships/${id}`);
-    }
-
+    // getStraship(id) {
+    //     return this.getResource(`starships/${id}`);
+    // }
 
 }
 
